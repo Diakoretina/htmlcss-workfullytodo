@@ -42,8 +42,7 @@ header {
 }
   /*Mid*/
 .mid{
-    padding: 32px;
-    border-bottom: 2px solid #12acee
+    padding: 16px;
 }
 /*Check stuff*/
 .circle {
@@ -59,4 +58,31 @@ header {
 .check {
     border: 1px solid lightgreen;
     color: lightgreen;
-  }  
+}
+.cross {
+    border: 1px solid red;
+    color: red;
+}
+/*Boat*/
+.boat {
+    border-radius: 500px;
+    color: white;
+    display: inline-block;
+    width: 96px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}  
+/*Color*/
+.blue{
+    background-color: #00adec;
+} 
+.purple{
+     background-color: #9c73e1;
+}
+.green{
+    background-color: #63c0aa;
+}
+.orange{
+    background-color: #f39d3c;
+}
